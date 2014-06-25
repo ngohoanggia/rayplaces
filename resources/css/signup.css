@@ -1,0 +1,58 @@
+.main-container {
+  padding-top: 40px;
+}
+
+.ray-homepage {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.acc-info {
+  border-bottom: 1px solid #eee;
+}
+
+.personal-info {
+  padding-top: 20px;
+}
+
+#index-banner{
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.project-ray-intro-container {
+  padding-right: 40px;
+}
+
+.signup-container {
+  padding-left: 40px;
+}
+
+.header {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-weight: normal;
+  font-size: 42px;
+  color: #555555;
+  padding-bottom: 5px;
+  margin: 0px 0px 0px 0px;
+}
+
+.header p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+#error-msg-container div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.signup-container .control-label {
+  text-align: left;
+}

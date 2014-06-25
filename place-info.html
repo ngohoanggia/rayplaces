@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Ray Places</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/basic-template.css" rel="stylesheet">
+    <link href="css/place-info.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Ray Places</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div id="places-category-container" class="container-fluid content main-container">
+      <div class="row">
+        <div class="col-xs-10 col-xs-offset-1">
+          <div class="header underlined-header">
+            <h1>Basic information</h1>
+          </div>
+          
+          <div class="col-xs-12 col-sm-4">
+            <div id="mini-map">
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-8" id="place-info-col">
+            <div id="place-search-bar" class="header">
+              <p>Enter information about this place</p>
+            </div>
+
+            <form role="form">
+              <div class="form-group">
+                <label for="place-name-input">Place's name</label>
+                <input type="text" class="form-control" id="place-name-input" placeholder="Place's name retrieved from Google Places or Foursquare if exists">
+              </div>
+              <div class="form-group">
+                <label for="place-address-input ">Address</label>
+                <textarea class="form-control" id="place-address-input" rows="3" placeholder="asfasdf"></textarea>
+              </div>
+              <div class="form-group">
+                <label for="place-category-dropdown">Category</label>
+                <div class="dropdown" id="place-category-dropdown">
+                  <button class="btn btn-default dropdown-toggle" type="button" id="category-dropdown-btn" data-toggle="dropdown">
+                    Select a category
+                    <div class="pull-right">
+                      <span class="caret"></span>
+                    </div>
+                  </button>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Food &amp; Drinks</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Shops &amp; Services</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Travel &amp; Transport</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Medical</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Residence</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Arts &amp; Entertainment</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Education</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Events</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Nightlife Spots</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Outdoors &amp; Recreation</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Professional</a></li>
+                    <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Others</a></li>
+                  </ul>
+                </div>
+              </div>
+            </form>
+
+            <button class="btn btn-default pull-right">Next</button>
+          </div>       
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+

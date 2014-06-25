@@ -1,0 +1,79 @@
+#content {
+  padding-top: 30px;
+}
+
+#index-banner{
+  padding-top: 25px;
+  padding-bottom: 20px;
+  background-image: url(../img/banner.png);
+  height: 189px;
+}
+
+.container-no-margin{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.login-welcome {
+
+}
+
+.login-welcome h1{
+  font-size: 63px;
+  padding-top: 40px;
+}
+
+.login-welcome p{
+  padding-top: 20px;
+  font-size: 21px;
+  font-weight: 200;
+}
+
+#more_info_btn{
+  margin-top: 20px;
+}
+
+#signin-btn {
+  width: 100%;
+}
+
+.signin-container {
+  border-bottom: 1px solid #eee;
+}
+
+.signin-container h1 {
+  font-weight: normal;
+  font-size: 42px;
+  color: #555555;
+  padding-bottom: 9px;
+  margin: 0px 0px 10px 0px;
+  border-bottom: 1px solid #eee;
+}
+
+.signin-container p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.signin-container .control-label {
+  text-align: left;
+}
+
+.signin-container {
+  width: 100%;
+}
+
+#error-msg-container div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.new-acc-container {
+	padding-top: 10px;
+}
+
+.new-acc-container .btn {
+  width: 100%;
+}

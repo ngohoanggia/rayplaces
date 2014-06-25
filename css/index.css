@@ -1,0 +1,48 @@
+#index-banner{
+  padding-top: 25px;
+  padding-bottom: 20px;
+}
+
+.container-no-margin{
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.login-img {
+
+}
+
+.signin-container {
+  border-bottom: 1px solid #eee;
+}
+
+.signin-container h1 {
+  font-weight: normal;
+  font-size: 42px;
+  color: #555555;
+  padding-bottom: 9px;
+  margin: 0px 0px 10px 0px;
+  border-bottom: 1px solid #eee;
+}
+
+.signin-container p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.signin-container .control-label {
+  text-align: left;
+}
+
+.signin-container .sign-in-button {
+  width: 100%;
+}
+
+.new-acc-container {
+	padding-top: 10px;
+}
+
+.new-acc-container .btn {
+  width: 100%;
+}

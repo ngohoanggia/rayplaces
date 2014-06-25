@@ -1,0 +1,45 @@
+#content {
+	padding-top: 30px;
+}
+
+.navbar-brand img{
+	height: 25px;
+	padding-right: 8px;
+	margin-top: -6px;
+}
+
+#loading {
+	height: 100%;
+	width: 100%;
+	background-color: rgb(168, 168, 168);;
+	opacity: 0.2;
+	z-index: 100;
+	position: fixed;
+	display: none;
+}
+
+#ray-loading-img {
+	top: 50%;
+	left: 50%;
+	margin-left: -60px;
+	margin-top: -64px;
+	position: absolute;
+}
+
+#loading img {
+	top: 50%;
+	left: 50%;
+	margin-left: -60px;
+	margin-top: -64px;
+	position: absolute;
+}
+
+.ray-btn {
+  background-color: #8ec041;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.ray-btn:hover {
+  background-color: #c6ea32;
+}

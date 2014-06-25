@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="resources/css/infoinput.css" type="text/css" media="all">
+
+<form id="place-input-form" class="form-horizontal" role="form">
+	<div class="form-group has-feedback">
+	  <label for="place-name-input" class="col-sm-2 control-label">Place's name</label>
+	  <div class="col-sm-10">
+	    <input type="text" class="form-control" id="place-name-input">
+	  </div>
+	</div>
+	<div class="form-group has-feedback">
+	  <label for="place-address-input" class="col-sm-2 control-label">Address</label>
+	  <div class="col-sm-10">
+	    <input type="text" class="form-control" id="place-address-input">
+	  </div>
+	</div>
+
+	<div class="form-group has-feedback">
+	  <label for="categoryMenu" class="col-sm-2 control-label">Category</label>
+	  <div class="col-sm-10">
+	    <div class="dropdown">
+		  <button class="btn dropdown-toggle" type="button" id="category-menu" data-toggle="dropdown">
+		    Please select a category for this place
+		    <span class="caret"></span>
+		  </button>
+		  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+		    <li class="category_item" role="presentation"><a role="menuitem" tabindex="-1">Food &amp; Beverages</a></li>
+		    <li class="category_item" role="presentation"><a role="menuitem" tabindex="-1">Education</a></li>
+		    <li class="category_item" role="presentation"><a role="menuitem" tabindex="-1">Medical</a></li>
+		  </ul>
+		</div>
+	  </div>
+	</div>
+</form>

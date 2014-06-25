@@ -1,0 +1,71 @@
+<link rel="stylesheet" href="resources/css/home.css" type="text/css" media="all">
+
+<div class="container-fluid container-no-margin">
+  <div id="index-banner" class="jumbotron row">
+    <div class="col-xs-10 col-xs-offset-1 container-no-margin">
+    </div>
+  </div>
+</div><!-- /.container -->
+
+<div class="container-fluid content">
+  <div class="row">
+    <div class="col-md-5 col-md-offset-1 login-welcome text-center">
+      <h1 class="heading">Ray Places</h1>
+      <p>Help us make your business more accessible to the visually handicapped</p>
+
+      <div class="text-center">
+        <button class="btn btn-default ray-btn" id="more_info_btn" href="#places_modal" data-toggle="modal">Find out how</button>
+      </div>
+    </div>
+    <div class="col-md-4 col-md-offset-1">
+      <div class="row signin-container">
+        <h1>Log in</h1>
+        <p>Sign in with your &nbsp;Ray Places account</p>
+        <form class="form-horizontal" role="form">
+          <div id="userid-form-group" class="form-group has-feedback">
+            <label for="input-email" class="col-sm-3 control-label">Email</label>
+            <div class="col-sm-9">
+              <input type="text" class="form-control" id="input-email" placeholder="Your Email">
+            </div>
+          </div>
+          <div id="password-form-group" class="form-group has-feedback">
+            <label for="input-password" class="col-sm-3 control-label">Password</label>
+            <div class="col-sm-9">
+              <input type="password" class="form-control" id="input-password" placeholder="Password">
+            </div>
+          </div>
+
+          <div id="error-msg-container"></div>
+
+          <div class="form-group">
+            <div class="col-sm-offset-3 col-sm-4">
+              <!--
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Remember me
+                </label>
+              </div>
+              -->
+            </div>
+            <div class="col-sm-5">
+              <button id="signin-btn" type="submit" class="btn btn-default ray-btn">
+                Sign in
+              </button>
+            </div>
+          </div>
+        </form>
+      </div><!-- signin-container -->
+      <div class="row new-acc-container">
+        <p>or you can sign up for a new account</p>
+        <form class="form-horizontal" role="form">
+          <div class="form-group">
+            <div class="col-sm-12">
+              <button class="btn btn-default pull-right new-acc-btn">Create a new account</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div><!-- main container-->
+

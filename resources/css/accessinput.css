@@ -1,0 +1,53 @@
+#accessibility-form {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.container-no-margin{
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#customized-access-input {
+  padding-right: 20px;
+  padding-bottom: 20px;
+}
+
+#customized-access-list-container{
+  padding-right: 20px;
+}
+
+#customized-access-name {
+  margin-bottom: 20px;
+  height: 42px;
+}
+
+.customized-access-btn {
+	width: 140px;
+	margin-left: 10px;
+}
+
+#customized-access-desc {
+  min-height: 200px;
+  height: 100%;
+}
+
+a.list-group-item.active, a.list-group-item.active:hover, a.list-group-item.active:focus {
+  color: #333;
+  background-color: #ebebeb;
+  border-color: #ebebeb;
+}
+
+#customized-accessibility-row {
+  margin-bottom: 30px;
+}
+
+#submit-place-row>.header {
+  margin-bottom:50px;
+}
+
+#submit-place-btn {
+  min-width: 200px;
+}

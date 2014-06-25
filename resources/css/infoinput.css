@@ -1,0 +1,16 @@
+#place-input-form {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#place-input-form label {
+	text-align: left;
+}
+
+#category-menu {
+	width: 100%;
+}
+
+.dropdown-menu {
+	width: 100%;
+}

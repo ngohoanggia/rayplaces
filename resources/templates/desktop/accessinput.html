@@ -1,0 +1,86 @@
+<link rel="stylesheet" href="resources/css/accessinput.css" type="text/css" media="all">
+
+<div class="row container-no-margin header-row">
+	<div class="header">
+	  <h1>Accessibility Information</h1>
+	  <p>Basic accessibility information to help your customers navigate around your outlet</p>
+	</div>
+</div>
+
+<div class="row container-no-margin">
+	<form id="accessibility-form" role="form">
+		<div class="form-group has-feedback">
+		  	<label for="greeting-access-input" class="control-label">Greeting</label>
+		    <textarea class="form-control access-input" id="greetings" rows="3" 
+		    placeholder="Welcome to... "></textarea>
+		</div>
+
+		<div class="form-group has-feedback">
+		  	<label for="warning-access-input" class="control-label">Warnings</label>
+		    <textarea class="form-control access-input" id="warnings" rows="3"
+		    placeholder="There is a step after you enter the entrance door. Watch out."></textarea>
+		</div>
+
+		<div class="form-group has-feedback">
+		  	<label for="staff-assistance-access-input" class="control-label">How to get staff assistance</label>
+		    <textarea class="form-control access-input" id="staff-assistance" rows="3"
+		    placeholder="The reception is to the left of the entrance. Our staff will give you assistance."></textarea>
+		</div>
+
+		<div class="form-group has-feedback">
+		  	<label for="restroom-access-input" class="control-label">Restrooms' locations</label>
+		    <textarea class="form-control access-input" id="restroom" rows="3"
+		    placeholder="From the entrance, walk 10 meters to the first corridor on your left. The restroom is at the end of the corridor."></textarea>
+		</div>
+
+		<div class="form-group has-feedback">
+		  	<label for="extra-access-input" class="control-label">Extra information</label>
+		    <textarea class="form-control access-input" id="extra-access-input" rows="3"
+		    placeholder="For example: if this place is a restaurant, include the menu and prices. If this place is a store, include the aisles of the popular products."></textarea>
+		</div>
+	</form>
+</div>
+
+<div class="row container-no-margin header-row">
+	<div class="header">
+	  <h1>Customized Accessibility Information</h1>
+	  <p>You can add specific accessibility information pertaining to your outlet, e.g: how to get to each department, what products are offered in each department... </p>
+	</div>
+</div>
+
+<div class="row container-no-margin" id="customized-accessibility-row">
+	<div class="col-xs-12 container-no-margin" id="customized-access-container">
+	  	<div class="col-md-3 col-xs-12 container-no-margin" id="customized-access-list-container">
+	  		<div class="list-group" id="customized-access-list">
+	  			<a href="#" class="list-group-item" id="new-customized-access-item">Add new item</a>
+			</div>
+	  	</div>
+
+	  	<div class="col-md-9 col-xs-12 container-no-margin" id="customized-access-inputs-container">
+	  		<form id="customized-accessibility-form" role="form">
+				<div class="form-group has-feedback" id="customized-access-name-container">
+				  	<input type="text" class="form-control" id="customized-access-name" placeholder="Enter a new item's name">
+				</div>
+				<div class="form-group has-feedback" id="customized-access-desc-container">
+				    <textarea class="form-control" id="customized-access-desc"
+		    		placeholder="Enter the item's description"></textarea>
+				</div>
+
+				<div id="error-msg-container"></div>
+
+				<button class="btn btn-default customized-access-btn pull-right ray-btn" id="save-customized-access-btn">Save</button>
+
+				<button class="btn btn-default customized-access-btn pull-right" id="reset-customized-access-btn">Reset</button>
+
+				<button class="btn btn-default customized-access-btn pull-right" id="remove-customized-access-btn">Delete</button>
+			</form>
+	  	</div>
+	</div>
+</div>
+
+<div class="row text-center" id="submit-place-row">
+	<div class="header"></div>
+	<p>Thank you!</p>
+  	<button id="submit-place-btn" class="btn btn-default ray-btn">Submit</button>
+</div>
+

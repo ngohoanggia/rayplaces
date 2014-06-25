@@ -1,0 +1,135 @@
+.main-container {
+  padding-top: 40px;
+}
+
+.header-row {
+  padding-top: 50px;
+}
+
+.header {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-weight: normal;
+  font-size: 42px;
+  color: #555555;
+  padding-bottom: 5px;
+  margin: 0px 0px 0px 0px;
+}
+
+.header p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+#map-canvas-holder {
+  height: 370px;
+  font-size: 14px;
+  display: block;
+}
+
+.map-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+#place-search-form-group label {
+  text-align: left;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.submit-place-container {
+  padding-top: 10px;
+}
+
+.place-infobox .infobox-content {
+  background-color: #fff;
+  padding: 5px;
+  padding-left: 10px;
+  text-align: left;
+  margin-top: 5px;
+  font-size: 14px;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 6px;
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.place-infobox .infobox-content p{
+  margin-bottom: 0px;
+}
+
+.place-infobox muted {
+  color: #999;
+}
+
+.infoBox>.arrow, .infoBox>.arrow:after{
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+
+.infoBox>.arrow:after{
+  content: " ";
+  top: -9px;
+  margin-left: -10px;
+  border-top-width: 0;
+  border-bottom-color: #fff;
+  border-width: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.infoBox>.arrow{
+  border-width: 11px;
+  left: 50%;
+  margin-left: -11px;
+  border-top-width: 0;
+  border-bottom-color: #999;
+  border-bottom-color: rgba(0,0,0,.25);
+  top: -5px;
+}
+
+.infobox-glyph{
+  padding-right: 3px;
+}
+
+#bodyContent>.accessible{
+  color: #3c763d;
+  padding-top:2px;
+  padding-bottom:2px;
+}
+
+#bodyContent>.not-accessible{
+  padding-top:2px;
+  padding-bottom:2px;
+  color: #a94442;
+}
+
+#map-legends {
+  padding-top: 7px;
+}
+
+#map-legends span{
+  padding-left: 30px;
+}
+
+#map-legends img{
+  height: 34px;
+  width: auto;
+}
+
+
